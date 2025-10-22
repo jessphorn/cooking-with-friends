@@ -1,0 +1,11 @@
+{
+    "users": {
+        "dpearce": {
+            "password": "test123",
+            "first": "Dora",
+            "last": "Pearce",
+            "email": "dpearce@email.com"
+            
+        }
+    }
+}

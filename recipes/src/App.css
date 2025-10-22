@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  position: relative;
+  height: 40vmin;
+  pointer-events: none;
+  box-shadow: inset;
+  mix-blend-mode: darken;
+  right: -70px;
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.app-container {
+  background-image: url('https://images.unsplash.com/photo-1490818387583-1baba5e638af?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1932'); /* Adjust path as needed */
+  background-size: cover; /* Ensures image covers the entire container */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents image from repeating */
+  min-height: 100vh; /* Ensures container takes full viewport height */
+  max-width: 100%;
+}
+
+.navBarLink {
+  margin: 5px;
+}
+
+.right-aligned {
+  position: absolute;
+  right:18%;
+  top: 25%;
+}
+
+.contained {
+  max-width: 400px;
+  align-content: center;
+}
+
+.heading {
+  color: rgba(40, 2, 2, 0.893);
+  text-align: center;
+}
